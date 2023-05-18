@@ -1,0 +1,786 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA01D1A5280BF916007E0A90 /* CreatorQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01D1A4280BF916007E0A90 /* CreatorQuizView.swift */; };
+		EA01D1A8280C88D0007E0A90 /* PSPDFKit in Frameworks */ = {isa = PBXBuildFile; productRef = EA01D1A7280C88D0007E0A90 /* PSPDFKit */; };
+		EA01D1AA280D3733007E0A90 /* QuizResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA01D1A9280D3733007E0A90 /* QuizResultView.swift */; };
+		EA15CA1C27D4026F00D8C5F3 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA15CA1B27D4026F00D8C5F3 /* CustomButton.swift */; };
+		EA1AA73427F0213400B9875E /* ClassroomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1AA73327F0213400B9875E /* ClassroomCard.swift */; };
+		EA1AA73627F0214500B9875E /* CreatedClassCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1AA73527F0214500B9875E /* CreatedClassCard.swift */; };
+		EA1AA73827F0215B00B9875E /* PostCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1AA73727F0215B00B9875E /* PostCard.swift */; };
+		EA1AA73A27F025F900B9875E /* CustomAddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1AA73927F025F900B9875E /* CustomAddButton.swift */; };
+		EA1AA73C27F0282000B9875E /* CreateNewPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1AA73B27F0282000B9875E /* CreateNewPostView.swift */; };
+		EA1AA74027F0E39E00B9875E /* InviteStudentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1AA73F27F0E39E00B9875E /* InviteStudentView.swift */; };
+		EA2491FB27CC034D00059C9B /* LoginLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2491FA27CC034D00059C9B /* LoginLoadingView.swift */; };
+		EA2491FD27CC050800059C9B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2491FC27CC050800059C9B /* HomeView.swift */; };
+		EA2491FF27CCC71E00059C9B /* TabClassrooms.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2491FE27CCC71E00059C9B /* TabClassrooms.swift */; };
+		EA24920127CCC95300059C9B /* TabNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA24920027CCC95300059C9B /* TabNotifications.swift */; };
+		EA24920327CCC96000059C9B /* TabProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA24920227CCC96000059C9B /* TabProfile.swift */; };
+		EA2C8EBF27E37F230051542B /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C8EBE27E37F230051542B /* EditProfileView.swift */; };
+		EA2C8EC127E3BB750051542B /* EditPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2C8EC027E3BB750051542B /* EditPasswordView.swift */; };
+		EA2FC2F8280764310038D3A9 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2FC2F7280764310038D3A9 /* CustomTextField.swift */; };
+		EA34875127BEA93C006DC6CD /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34875027BEA93C006DC6CD /* RegistrationView.swift */; };
+		EA34875427C5798D006DC6CD /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = EA34875327C5798D006DC6CD /* Alamofire */; };
+		EA34875727C6A963006DC6CD /* CustomQuizTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34875627C6A963006DC6CD /* CustomQuizTextField.swift */; };
+		EA34875927C6AAE7006DC6CD /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34875827C6AAE7006DC6CD /* CustomSecureField.swift */; };
+		EA34875B27C6B267006DC6CD /* CustomTapableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34875A27C6B267006DC6CD /* CustomTapableButton.swift */; };
+		EA34875D27C6B6BC006DC6CD /* CustomDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA34875C27C6B6BC006DC6CD /* CustomDivider.swift */; };
+		EA6A82242800BB640011526A /* QuizCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A82232800BB640011526A /* QuizCreatorView.swift */; };
+		EA6A82262801F7690011526A /* StudentQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA6A82252801F7690011526A /* StudentQuizView.swift */; };
+		EA901D6627BBFFF2005E2268 /* TrackroomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA901D6527BBFFF2005E2268 /* TrackroomApp.swift */; };
+		EA901D6827BBFFF2005E2268 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA901D6727BBFFF2005E2268 /* WelcomeViewController.swift */; };
+		EA901D6A27BBFFF4005E2268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA901D6927BBFFF4005E2268 /* Assets.xcassets */; };
+		EA901D6D27BBFFF4005E2268 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA901D6C27BBFFF4005E2268 /* Preview Assets.xcassets */; };
+		EA901D7727BBFFF4005E2268 /* TrackroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA901D7627BBFFF4005E2268 /* TrackroomTests.swift */; };
+		EA901D8127BBFFF4005E2268 /* TrackroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA901D8027BBFFF4005E2268 /* TrackroomUITests.swift */; };
+		EA901D8327BBFFF4005E2268 /* TrackroomUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA901D8227BBFFF4005E2268 /* TrackroomUITestsLaunchTests.swift */; };
+		EA901D9127BC3367005E2268 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA901D9027BC3367005E2268 /* LoginView.swift */; };
+		EA9CC23227E6FA4700CED867 /* DetailedClassroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9CC23127E6FA4700CED867 /* DetailedClassroomView.swift */; };
+		EA9CC23427E737D900CED867 /* CreateClassroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9CC23327E737D900CED867 /* CreateClassroomView.swift */; };
+		EA9CC23627E737ED00CED867 /* JoinPublicClassroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9CC23527E737ED00CED867 /* JoinPublicClassroomView.swift */; };
+		EA9CC23827E7380300CED867 /* JoinPrivateClassroomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA9CC23727E7380300CED867 /* JoinPrivateClassroomView.swift */; };
+		EAC35D5027D24F5B00B7ABD5 /* RequestModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC35D4F27D24F5B00B7ABD5 /* RequestModels.swift */; };
+		EAC35D5227D24FED00B7ABD5 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAC35D5127D24FED00B7ABD5 /* ResponseModel.swift */; };
+		EAFA63B727F8CB30007DF9C8 /* DetailedPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA63B627F8CB30007DF9C8 /* DetailedPostView.swift */; };
+		EAFA63B927F9669E007DF9C8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAFA63B827F9669E007DF9C8 /* ImagePicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA901D7327BBFFF4005E2268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA901D5A27BBFFF2005E2268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA901D6127BBFFF2005E2268;
+			remoteInfo = Trackroom;
+		};
+		EA901D7D27BBFFF4005E2268 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA901D5A27BBFFF2005E2268 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA901D6127BBFFF2005E2268;
+			remoteInfo = Trackroom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA01D1A4280BF916007E0A90 /* CreatorQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatorQuizView.swift; sourceTree = "<group>"; };
+		EA01D1A9280D3733007E0A90 /* QuizResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizResultView.swift; sourceTree = "<group>"; };
+		EA15CA1B27D4026F00D8C5F3 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		EA1AA73327F0213400B9875E /* ClassroomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassroomCard.swift; sourceTree = "<group>"; };
+		EA1AA73527F0214500B9875E /* CreatedClassCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedClassCard.swift; sourceTree = "<group>"; };
+		EA1AA73727F0215B00B9875E /* PostCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCard.swift; sourceTree = "<group>"; };
+		EA1AA73927F025F900B9875E /* CustomAddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAddButton.swift; sourceTree = "<group>"; };
+		EA1AA73B27F0282000B9875E /* CreateNewPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostView.swift; sourceTree = "<group>"; };
+		EA1AA73F27F0E39E00B9875E /* InviteStudentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InviteStudentView.swift; sourceTree = "<group>"; };
+		EA2491FA27CC034D00059C9B /* LoginLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginLoadingView.swift; sourceTree = "<group>"; };
+		EA2491FC27CC050800059C9B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EA2491FE27CCC71E00059C9B /* TabClassrooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabClassrooms.swift; sourceTree = "<group>"; };
+		EA24920027CCC95300059C9B /* TabNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNotifications.swift; sourceTree = "<group>"; };
+		EA24920227CCC96000059C9B /* TabProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabProfile.swift; sourceTree = "<group>"; };
+		EA2C8EBE27E37F230051542B /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		EA2C8EC027E3BB750051542B /* EditPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditPasswordView.swift; sourceTree = "<group>"; };
+		EA2FC2F7280764310038D3A9 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		EA34875027BEA93C006DC6CD /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		EA34875627C6A963006DC6CD /* CustomQuizTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomQuizTextField.swift; sourceTree = "<group>"; };
+		EA34875827C6AAE7006DC6CD /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		EA34875A27C6B267006DC6CD /* CustomTapableButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTapableButton.swift; sourceTree = "<group>"; };
+		EA34875C27C6B6BC006DC6CD /* CustomDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDivider.swift; sourceTree = "<group>"; };
+		EA6A82232800BB640011526A /* QuizCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizCreatorView.swift; sourceTree = "<group>"; };
+		EA6A82252801F7690011526A /* StudentQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentQuizView.swift; sourceTree = "<group>"; };
+		EA901D6227BBFFF2005E2268 /* Trackroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trackroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA901D6527BBFFF2005E2268 /* TrackroomApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackroomApp.swift; sourceTree = "<group>"; };
+		EA901D6727BBFFF2005E2268 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		EA901D6927BBFFF4005E2268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA901D6C27BBFFF4005E2268 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EA901D7227BBFFF4005E2268 /* TrackroomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackroomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA901D7627BBFFF4005E2268 /* TrackroomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackroomTests.swift; sourceTree = "<group>"; };
+		EA901D7C27BBFFF4005E2268 /* TrackroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrackroomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA901D8027BBFFF4005E2268 /* TrackroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackroomUITests.swift; sourceTree = "<group>"; };
+		EA901D8227BBFFF4005E2268 /* TrackroomUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackroomUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EA901D9027BC3367005E2268 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginView.swift; path = Trackroom/LoginView.swift; sourceTree = SOURCE_ROOT; };
+		EA9CC23127E6FA4700CED867 /* DetailedClassroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedClassroomView.swift; sourceTree = "<group>"; };
+		EA9CC23327E737D900CED867 /* CreateClassroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateClassroomView.swift; sourceTree = "<group>"; };
+		EA9CC23527E737ED00CED867 /* JoinPublicClassroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinPublicClassroomView.swift; sourceTree = "<group>"; };
+		EA9CC23727E7380300CED867 /* JoinPrivateClassroomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinPrivateClassroomView.swift; sourceTree = "<group>"; };
+		EAC35D4F27D24F5B00B7ABD5 /* RequestModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestModels.swift; sourceTree = "<group>"; };
+		EAC35D5127D24FED00B7ABD5 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		EAFA63B627F8CB30007DF9C8 /* DetailedPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedPostView.swift; sourceTree = "<group>"; };
+		EAFA63B827F9669E007DF9C8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA901D5F27BBFFF2005E2268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA34875427C5798D006DC6CD /* Alamofire in Frameworks */,
+				EA01D1A8280C88D0007E0A90 /* PSPDFKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA901D6F27BBFFF4005E2268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA901D7927BBFFF4005E2268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA2491F727CBDDD500059C9B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EAC35D4F27D24F5B00B7ABD5 /* RequestModels.swift */,
+				EAC35D5127D24FED00B7ABD5 /* ResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EA34875527C6A920006DC6CD /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EA34875627C6A963006DC6CD /* CustomQuizTextField.swift */,
+				EA34875827C6AAE7006DC6CD /* CustomSecureField.swift */,
+				EA34875A27C6B267006DC6CD /* CustomTapableButton.swift */,
+				EA34875C27C6B6BC006DC6CD /* CustomDivider.swift */,
+				EA15CA1B27D4026F00D8C5F3 /* CustomButton.swift */,
+				EA1AA73527F0214500B9875E /* CreatedClassCard.swift */,
+				EA1AA73327F0213400B9875E /* ClassroomCard.swift */,
+				EA1AA73727F0215B00B9875E /* PostCard.swift */,
+				EA1AA73927F025F900B9875E /* CustomAddButton.swift */,
+				EAFA63B827F9669E007DF9C8 /* ImagePicker.swift */,
+				EA2FC2F7280764310038D3A9 /* CustomTextField.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		EA901D5927BBFFF2005E2268 = {
+			isa = PBXGroup;
+			children = (
+				EA901D6427BBFFF2005E2268 /* Trackroom */,
+				EA901D7527BBFFF4005E2268 /* TrackroomTests */,
+				EA901D7F27BBFFF4005E2268 /* TrackroomUITests */,
+				EA901D6327BBFFF2005E2268 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA901D6327BBFFF2005E2268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA901D6227BBFFF2005E2268 /* Trackroom.app */,
+				EA901D7227BBFFF4005E2268 /* TrackroomTests.xctest */,
+				EA901D7C27BBFFF4005E2268 /* TrackroomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA901D6427BBFFF2005E2268 /* Trackroom */ = {
+			isa = PBXGroup;
+			children = (
+				EA2491F727CBDDD500059C9B /* Models */,
+				EA34875527C6A920006DC6CD /* CustomViews */,
+				EA901D6527BBFFF2005E2268 /* TrackroomApp.swift */,
+				EA901D8F27BC2EDE005E2268 /* Screens */,
+				EA901D6927BBFFF4005E2268 /* Assets.xcassets */,
+				EA901D6B27BBFFF4005E2268 /* Preview Content */,
+			);
+			path = Trackroom;
+			sourceTree = "<group>";
+		};
+		EA901D6B27BBFFF4005E2268 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EA901D6C27BBFFF4005E2268 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EA901D7527BBFFF4005E2268 /* TrackroomTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA901D7627BBFFF4005E2268 /* TrackroomTests.swift */,
+			);
+			path = TrackroomTests;
+			sourceTree = "<group>";
+		};
+		EA901D7F27BBFFF4005E2268 /* TrackroomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA901D8027BBFFF4005E2268 /* TrackroomUITests.swift */,
+				EA901D8227BBFFF4005E2268 /* TrackroomUITestsLaunchTests.swift */,
+			);
+			path = TrackroomUITests;
+			sourceTree = "<group>";
+		};
+		EA901D8F27BC2EDE005E2268 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				EA901D9027BC3367005E2268 /* LoginView.swift */,
+				EA9CC23127E6FA4700CED867 /* DetailedClassroomView.swift */,
+				EAFA63B627F8CB30007DF9C8 /* DetailedPostView.swift */,
+				EA01D1A4280BF916007E0A90 /* CreatorQuizView.swift */,
+				EA1AA73F27F0E39E00B9875E /* InviteStudentView.swift */,
+				EA1AA73B27F0282000B9875E /* CreateNewPostView.swift */,
+				EA6A82232800BB640011526A /* QuizCreatorView.swift */,
+				EA6A82252801F7690011526A /* StudentQuizView.swift */,
+				EA01D1A9280D3733007E0A90 /* QuizResultView.swift */,
+				EA901D6727BBFFF2005E2268 /* WelcomeViewController.swift */,
+				EA34875027BEA93C006DC6CD /* RegistrationView.swift */,
+				EA2491FA27CC034D00059C9B /* LoginLoadingView.swift */,
+				EA2491FC27CC050800059C9B /* HomeView.swift */,
+				EA2491FE27CCC71E00059C9B /* TabClassrooms.swift */,
+				EA9CC23327E737D900CED867 /* CreateClassroomView.swift */,
+				EA9CC23527E737ED00CED867 /* JoinPublicClassroomView.swift */,
+				EA9CC23727E7380300CED867 /* JoinPrivateClassroomView.swift */,
+				EA24920027CCC95300059C9B /* TabNotifications.swift */,
+				EA24920227CCC96000059C9B /* TabProfile.swift */,
+				EA2C8EC027E3BB750051542B /* EditPasswordView.swift */,
+				EA2C8EBE27E37F230051542B /* EditProfileView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA901D6127BBFFF2005E2268 /* Trackroom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA901D8627BBFFF4005E2268 /* Build configuration list for PBXNativeTarget "Trackroom" */;
+			buildPhases = (
+				EA901D5E27BBFFF2005E2268 /* Sources */,
+				EA901D5F27BBFFF2005E2268 /* Frameworks */,
+				EA901D6027BBFFF2005E2268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Trackroom;
+			packageProductDependencies = (
+				EA34875327C5798D006DC6CD /* Alamofire */,
+				EA01D1A7280C88D0007E0A90 /* PSPDFKit */,
+			);
+			productName = Trackroom;
+			productReference = EA901D6227BBFFF2005E2268 /* Trackroom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA901D7127BBFFF4005E2268 /* TrackroomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA901D8927BBFFF4005E2268 /* Build configuration list for PBXNativeTarget "TrackroomTests" */;
+			buildPhases = (
+				EA901D6E27BBFFF4005E2268 /* Sources */,
+				EA901D6F27BBFFF4005E2268 /* Frameworks */,
+				EA901D7027BBFFF4005E2268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA901D7427BBFFF4005E2268 /* PBXTargetDependency */,
+			);
+			name = TrackroomTests;
+			productName = TrackroomTests;
+			productReference = EA901D7227BBFFF4005E2268 /* TrackroomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA901D7B27BBFFF4005E2268 /* TrackroomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA901D8C27BBFFF4005E2268 /* Build configuration list for PBXNativeTarget "TrackroomUITests" */;
+			buildPhases = (
+				EA901D7827BBFFF4005E2268 /* Sources */,
+				EA901D7927BBFFF4005E2268 /* Frameworks */,
+				EA901D7A27BBFFF4005E2268 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA901D7E27BBFFF4005E2268 /* PBXTargetDependency */,
+			);
+			name = TrackroomUITests;
+			productName = TrackroomUITests;
+			productReference = EA901D7C27BBFFF4005E2268 /* TrackroomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA901D5A27BBFFF2005E2268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					EA901D6127BBFFF2005E2268 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					EA901D7127BBFFF4005E2268 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EA901D6127BBFFF2005E2268;
+					};
+					EA901D7B27BBFFF4005E2268 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = EA901D6127BBFFF2005E2268;
+					};
+				};
+			};
+			buildConfigurationList = EA901D5D27BBFFF2005E2268 /* Build configuration list for PBXProject "Trackroom" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA901D5927BBFFF2005E2268;
+			packageReferences = (
+				EA34875227C5798D006DC6CD /* XCRemoteSwiftPackageReference "Alamofire" */,
+				EA01D1A6280C88CF007E0A90 /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */,
+			);
+			productRefGroup = EA901D6327BBFFF2005E2268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA901D6127BBFFF2005E2268 /* Trackroom */,
+				EA901D7127BBFFF4005E2268 /* TrackroomTests */,
+				EA901D7B27BBFFF4005E2268 /* TrackroomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA901D6027BBFFF2005E2268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA901D6D27BBFFF4005E2268 /* Preview Assets.xcassets in Resources */,
+				EA901D6A27BBFFF4005E2268 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA901D7027BBFFF4005E2268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA901D7A27BBFFF4005E2268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA901D5E27BBFFF2005E2268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA9CC23827E7380300CED867 /* JoinPrivateClassroomView.swift in Sources */,
+				EA2C8EC127E3BB750051542B /* EditPasswordView.swift in Sources */,
+				EA2FC2F8280764310038D3A9 /* CustomTextField.swift in Sources */,
+				EA2C8EBF27E37F230051542B /* EditProfileView.swift in Sources */,
+				EA6A82262801F7690011526A /* StudentQuizView.swift in Sources */,
+				EA901D6827BBFFF2005E2268 /* WelcomeViewController.swift in Sources */,
+				EA9CC23427E737D900CED867 /* CreateClassroomView.swift in Sources */,
+				EA901D6627BBFFF2005E2268 /* TrackroomApp.swift in Sources */,
+				EA15CA1C27D4026F00D8C5F3 /* CustomButton.swift in Sources */,
+				EA34875D27C6B6BC006DC6CD /* CustomDivider.swift in Sources */,
+				EA34875127BEA93C006DC6CD /* RegistrationView.swift in Sources */,
+				EA901D9127BC3367005E2268 /* LoginView.swift in Sources */,
+				EA34875927C6AAE7006DC6CD /* CustomSecureField.swift in Sources */,
+				EAFA63B727F8CB30007DF9C8 /* DetailedPostView.swift in Sources */,
+				EAFA63B927F9669E007DF9C8 /* ImagePicker.swift in Sources */,
+				EA9CC23627E737ED00CED867 /* JoinPublicClassroomView.swift in Sources */,
+				EA24920327CCC96000059C9B /* TabProfile.swift in Sources */,
+				EAC35D5227D24FED00B7ABD5 /* ResponseModel.swift in Sources */,
+				EA9CC23227E6FA4700CED867 /* DetailedClassroomView.swift in Sources */,
+				EA1AA73C27F0282000B9875E /* CreateNewPostView.swift in Sources */,
+				EA24920127CCC95300059C9B /* TabNotifications.swift in Sources */,
+				EA6A82242800BB640011526A /* QuizCreatorView.swift in Sources */,
+				EAC35D5027D24F5B00B7ABD5 /* RequestModels.swift in Sources */,
+				EA2491FB27CC034D00059C9B /* LoginLoadingView.swift in Sources */,
+				EA1AA73827F0215B00B9875E /* PostCard.swift in Sources */,
+				EA34875727C6A963006DC6CD /* CustomQuizTextField.swift in Sources */,
+				EA34875B27C6B267006DC6CD /* CustomTapableButton.swift in Sources */,
+				EA01D1AA280D3733007E0A90 /* QuizResultView.swift in Sources */,
+				EA1AA73427F0213400B9875E /* ClassroomCard.swift in Sources */,
+				EA1AA73627F0214500B9875E /* CreatedClassCard.swift in Sources */,
+				EA1AA73A27F025F900B9875E /* CustomAddButton.swift in Sources */,
+				EA01D1A5280BF916007E0A90 /* CreatorQuizView.swift in Sources */,
+				EA2491FD27CC050800059C9B /* HomeView.swift in Sources */,
+				EA2491FF27CCC71E00059C9B /* TabClassrooms.swift in Sources */,
+				EA1AA74027F0E39E00B9875E /* InviteStudentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA901D6E27BBFFF4005E2268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA901D7727BBFFF4005E2268 /* TrackroomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA901D7827BBFFF4005E2268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA901D8127BBFFF4005E2268 /* TrackroomUITests.swift in Sources */,
+				EA901D8327BBFFF4005E2268 /* TrackroomUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA901D7427BBFFF4005E2268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA901D6127BBFFF2005E2268 /* Trackroom */;
+			targetProxy = EA901D7327BBFFF4005E2268 /* PBXContainerItemProxy */;
+		};
+		EA901D7E27BBFFF4005E2268 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA901D6127BBFFF2005E2268 /* Trackroom */;
+			targetProxy = EA901D7D27BBFFF4005E2268 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA901D8427BBFFF4005E2268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA901D8527BBFFF4005E2268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA901D8727BBFFF4005E2268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trackroom/Preview Content\"";
+				DEVELOPMENT_TEAM = 7F4L26FC96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LMS.Trackroom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA901D8827BBFFF4005E2268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Trackroom/Preview Content\"";
+				DEVELOPMENT_TEAM = 7F4L26FC96;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LMS.Trackroom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EA901D8A27BBFFF4005E2268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LMS.TrackroomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackroom.app/Trackroom";
+			};
+			name = Debug;
+		};
+		EA901D8B27BBFFF4005E2268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LMS.TrackroomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Trackroom.app/Trackroom";
+			};
+			name = Release;
+		};
+		EA901D8D27BBFFF4005E2268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LMS.TrackroomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trackroom;
+			};
+			name = Debug;
+		};
+		EA901D8E27BBFFF4005E2268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = LMS.TrackroomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Trackroom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA901D5D27BBFFF2005E2268 /* Build configuration list for PBXProject "Trackroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA901D8427BBFFF4005E2268 /* Debug */,
+				EA901D8527BBFFF4005E2268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA901D8627BBFFF4005E2268 /* Build configuration list for PBXNativeTarget "Trackroom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA901D8727BBFFF4005E2268 /* Debug */,
+				EA901D8827BBFFF4005E2268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA901D8927BBFFF4005E2268 /* Build configuration list for PBXNativeTarget "TrackroomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA901D8A27BBFFF4005E2268 /* Debug */,
+				EA901D8B27BBFFF4005E2268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA901D8C27BBFFF4005E2268 /* Build configuration list for PBXNativeTarget "TrackroomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA901D8D27BBFFF4005E2268 /* Debug */,
+				EA901D8E27BBFFF4005E2268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA01D1A6280C88CF007E0A90 /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/PSPDFKit/PSPDFKit-SP";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		EA34875227C5798D006DC6CD /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA01D1A7280C88D0007E0A90 /* PSPDFKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA01D1A6280C88CF007E0A90 /* XCRemoteSwiftPackageReference "PSPDFKit-SP" */;
+			productName = PSPDFKit;
+		};
+		EA34875327C5798D006DC6CD /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA34875227C5798D006DC6CD /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = EA901D5A27BBFFF2005E2268 /* Project object */;
+}
