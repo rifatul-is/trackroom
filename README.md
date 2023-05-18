@@ -9,6 +9,8 @@ An advance classroom app on ios that lets you both teach and enroll in classes.
 
 If you are running the server locally make sure to adjust the ip address for the request.
 
+Use the Model Request and Model Response file to configure the request and responses from the API
+
 # Screenshots
 
 Login And Registration
