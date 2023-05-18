@@ -34,5 +34,5 @@ Classroom And Posts
 
 Quizes
 
-<img src="Screenshots/14.png" width="250">
+<img src="Screenshots/11.png" width="250">
 
