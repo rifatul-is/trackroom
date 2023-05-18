@@ -13,23 +13,23 @@ If you are running the server locally make sure to adjust the ip address for the
 
 Login And Registration
 
-<img src="Screenshots/0.png" width="300"> <img src="Screenshots/1.png" width="291"> <img src="Screenshots/2.png" width="301">
+<img src="Screenshot/0.png" width="300"> <img src="Screenshot/1.png" width="291"> <img src="Screenshot/2.png" width="301">
 
 Home And Notifications
 
-<img src="Screenshots/3.png" width="300"> <img style="margin-top:-500px" src="Screenshots/4.png" width="291">
+<img src="Screenshot/3.png" width="300"> <img style="margin-top:-500px" src="Screenshot/4.png" width="291">
 
 Profile and Profile Edit
 
-<img src="Screenshots/5.png" width="250"> <img src="Screenshots/6.png" width="264"> <img src="Screenshots/7.png" width="255">
+<img src="Screenshot/5.png" width="250"> <img src="Screenshot/6.png" width="264"> <img src="Screenshot/7.png" width="255">
 
 Profile and Profile Edit
 
-<img src="Screenshots/5.png" width="250"> <img src="Screenshots/6.png" width="264"> <img src="Screenshots/7.png" width="255">
+<img src="Screenshot/5.png" width="250"> <img src="Screenshot/6.png" width="264"> <img src="Screenshot/7.png" width="255">
 
 Classroom And Posts
 
-<img src="Screenshots/8.png" width="250"> <img src="Screenshots/9.png" width="264"> <img src="Screenshots/10.png" width="255">
+<img src="Screenshot/8.png" width="250"> <img src="Screenshot/9.png" width="264"> <img src="Screenshot/10.png" width="255">
 
 
 Quizes
